@@ -81,7 +81,6 @@ const createSlider = () => {
   const duration = document.getElementById('duration').value || 1000;
   if(duration < 0){
     alert('Sorry!! Negative duration cannot change slider image..');
-    // imagesArea.style.display = 'none';
     document.querySelector('.images').style.display = 'block';
   }
   else{
